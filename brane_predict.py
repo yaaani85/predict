@@ -18,7 +18,7 @@ logger.setLevel(logging.DEBUG)
 
 def predict(model_name: str, use_local: bool, use_sampled_data: bool) -> str:
     use_sampled_data_str = '1000' if use_sampled_data else ''
-    data_loc_prefix = '../data/' if use_local else '/data/data/'
+    data_loc_prefix = 'data/' if use_local else '/data/data/'
     model_name = f"{model_name}{use_sampled_data_str}"
    
     n_splits = 5

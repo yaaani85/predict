@@ -1,6 +1,5 @@
 from brane_predict import predict
 
-#local testing
+# local testing
 def test_predict():
-  assert predict("lightgbm", True, True) == "Made prediction"
-  
+    assert predict("lightgbm", True, True) == "Made prediction"

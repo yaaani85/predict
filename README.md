@@ -1,5 +1,7 @@
 # WSCBS2021 Predicting
 
+This implementation is based on [bogorodvo's solution](https://www.kaggle.com/bogorodvo/lightgbm-baseline-model-using-sparse-matrix).
+
 This is an example Brane package to predict, based on pre-trained ML model. Import it as follows:
 
 ```shell

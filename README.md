@@ -12,8 +12,13 @@ The following environment variables can be set:
 
 ```shell
 $ export MODEL_NAME='lightgbm' 
-$ USE_LOCAL=True 
-$ USE_SAMPLED_DATA=True
+$ export USE_LOCAL=True 
+$ export USE_SAMPLED_DATA=True
+```
+
+For an overview of the parameters of the brane package, you can `test` the package
+```shell
+$ brane --debug test predicting
 ```
 
 You also need to push the package to be able to import it in your remote session or jupyterlab notebook:
